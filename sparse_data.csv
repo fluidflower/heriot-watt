@@ -5,7 +5,7 @@
 3a, 1.234e+56, <...>, # mobile free phase in Box A at 72h [kg]
 3b, 1.234e+56, <...>, # immobile free phase in Box A at 72h [kg]
 3c, 1.234e+56, <...>, # dissolved in water in Box A at 72h [kg]
-3d, 1.234e+56, <...>, # seal in Box A at 72h [kg/m2]
+3d, 1.234e+56, <...>, # seal in Box A at 72h [kg]
 4a-d <same for Box B>
 5, 1.234e+56, <...>, # time when M exceeds 110% of Box C’s width [s]
 6, 1.234e+56, <...>, # total mass of CO2 in the top seal facies [kg]
