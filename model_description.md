@@ -30,7 +30,9 @@ S_{e\alpha}=max\left(0, \frac{S_\alpha-S_{r\alpha}} {1-S_{rCO_2}-S_{rWater}}\rig
 \end{align*}
 ](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AS_%7Be%5Calpha%7D%3Dmax%5Cleft%280%2C+%5Cfrac%7BS_%5Calpha-S_%7Br%5Calpha%7D%7D+%7B1-S_%7BrCO_2%7D-S_%7BrWater%7D%7D%5Cright%29%0A%5Cend%7Balign%2A%7D%0A)
 
-*** Parameters ***
+** Parameters **
+| Parameter | ESF | C | D | E | F | G |
+
 S_rW=[0.32, 0.14, 0.12, 0.12, 0.12, 0.10];
 k_rC^max= [0.09, 0.05, 0.02, 0.1, 0.11, 0.16];
 s_rC= [0.14, 0.1, 0.08, 0.06, 0.13, 0.06];
