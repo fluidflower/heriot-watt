@@ -17,7 +17,12 @@ Black oil equations with CO2 represented by gas phase/component and water repres
   Pentry=[1471., 294, 98, 30, 30, 30] for ESF, C, D, E, F, G sands.
   Lambda=1
 
-* **Relative permeability:** ...
+* **Relative permeability:** 
+* ![\begin{align*}
+k_{r\alpha} =k_{r\alpha}^{max}S_{e\alpha}^{n_\alpha}
+\end{align*}
+](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0Ak_%7Br%5Calpha%7D+%3Dk_%7Br%5Calpha%7D%5E%7Bmax%7DS_%7Be%5Calpha%7D%5E%7Bn_%5Calpha%7D%0A%5Cend%7Balign%2A%7D%0A)
+Project repository https://github.com/masakiaota/tex_image_link_generator
 
 #### Phase composition: Applied equations of state
 
