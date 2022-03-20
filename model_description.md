@@ -25,7 +25,10 @@ k_{r\alpha} =k_{r\alpha}^{max}S_{e\alpha}^{n_\alpha}
 \end{align*}
 ](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0Ak_%7Br%5Calpha%7D+%3Dk_%7Br%5Calpha%7D%5E%7Bmax%7DS_%7Be%5Calpha%7D%5E%7Bn_%5Calpha%7D%0A%5Cend%7Balign%2A%7D%0A)
 
-Project repository https://github.com/masakiaota/tex_image_link_generator
+![\begin{align*}
+S_{e\alpha}=max\left(0, \frac{S_\alpha-S_{r\alpha}} {1-S_{rCO_2}-S_{rWater}}\right)
+\end{align*}
+](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AS_%7Be%5Calpha%7D%3Dmax%5Cleft%280%2C+%5Cfrac%7BS_%5Calpha-S_%7Br%5Calpha%7D%7D+%7B1-S_%7BrCO_2%7D-S_%7BrWater%7D%7D%5Cright%29%0A%5Cend%7Balign%2A%7D%0A)
 
 #### Phase composition: Applied equations of state
 
