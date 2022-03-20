@@ -30,10 +30,11 @@ S_{e\alpha}=max\left(0, \frac{S_\alpha-S_{r\alpha}} {1-S_{rCO_2}-S_{rWater}}\rig
 \end{align*}
 ](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AS_%7Be%5Calpha%7D%3Dmax%5Cleft%280%2C+%5Cfrac%7BS_%5Calpha-S_%7Br%5Calpha%7D%7D+%7B1-S_%7BrCO_2%7D-S_%7BrWater%7D%7D%5Cright%29%0A%5Cend%7Balign%2A%7D%0A)
 
-S_rW=[0.32,0.14,0.12,0.12,0.12,0.10];
-k_rG^max= [1,        .09,       .05,      .02 ,      .1,     .11,       .16,   1];
-    sGr=      [0,       0.14,       .1 ,      .08   ,   .06 ,    .13,       .06,  0   ];
-    kRelWEnd= [1,        0.71,     0.93,      0.95,     0.93,    0.72,      0.75, 1];
+*** Parameters ***
+S_rW=[0.32, 0.14, 0.12, 0.12, 0.12, 0.10];
+k_rC^max= [0.09, 0.05, 0.02, 0.1, 0.11, 0.16];
+s_rC= [0.14, 0.1, 0.08, 0.06, 0.13, 0.06];
+k_rW^max= [0.71,0.93,      0.95,     0.93,    0.72,      0.75, 1];
     
 
 #### Phase composition: Applied equations of state
