@@ -60,22 +60,40 @@ Not accounted for
 
 #### Density
 
-* **Liquid phase:** ...
+* **Liquid phase:** 
 
-* **Gas phase:** ...
+![\begin{align*}
+\rho_w(p,r_s)= \rho_{w0}\exp\left(c_w(p-p_{ref})\right) \left(1 +\frac{\Delta \rho_w^{sat}}{\rho_{w0}} \frac{ r_s}{r_s^{sat,ref}}\right)
+\end{align*}
+](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Crho_w%28p%2Cr_s%29%3D+%5Crho_%7Bw0%7D%5Cexp%5Cleft%28c_w%28p-p_%7Bref%7D%29%5Cright%29+%5Cleft%281+%2B%5Cfrac%7B%5CDelta+%5Crho_w%5E%7Bsat%7D%7D%7B%5Crho_%7Bw0%7D%7D+%5Cfrac%7B+r_s%7D%7Br_s%5E%7Bsat%2Cref%7D%7D%5Cright%29%0A%5Cend%7Balign%2A%7D%0A)
+
+Deltarho_w^sat/rho_w0= 1.6e-4
+rho_w0=998 kg/m^3
+c_w=0.458e-9 Pa^-1
+p_ref=1e5 Pa
+
+* **Gas phase:** 
+
+![\begin{align*}
+\rho_w(p,r_s)= \rho_{c0}\exp\left(c_c(p-p_{ref})\right)
+\end{align*}
+](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Crho_w%28p%2Cr_s%29%3D+%5Crho_%7Bc0%7D%5Cexp%5Cleft%28c_c%28p-p_%7Bref%7D%29%5Cright%29%0A%5Cend%7Balign%2A%7D%0A)
+
+rho_c0=1.815 kg/m^3
+c_c=1e-5 Pa^-1
+
 
 #### Solubility limit
 
-_Please provide the assumed solubility limit of CO2 in liquid phase at the tank bottom in kg/m<sup>3</sup>._
+2 kg/m^3
 
 ### Temperature
 
-_Please provide the assumed temperature inside the computational domain in °C._
+~20C
 
 ### Domain volume
 
-_Please provide the assumed total volume of the computational domain in m<sup>3</sup>._
-
+Domain: 2.8m x 1.5m x 0.02m = 0.084 m^3
 ### Spatial parameters
 
 _Please provide the relevant facies parameters as a csv file._<br>
