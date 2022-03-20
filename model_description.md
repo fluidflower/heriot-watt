@@ -44,9 +44,18 @@ S_{e\alpha}=max\left(0, \frac{S_\alpha-S_{r\alpha}} {1-S_{rCO_2}-S_{rWater}}\rig
 
 #### Phase composition: Applied equations of state
 
-* **CO2 in liquid phase:** ...
+* **CO2 in liquid phase:** 
 
-* **Water in gas phase:** ...
+![\begin{align*}
+r_s^{sat,ref}=\frac{\rho_w}{\rho_C}\omega^{sat,ref}\\
+r_s^{sat}(p)=r_s^{sat,ref} \frac{p}{p_{ref}}\\
+r_s=\min\left(r_s,r_s^{sat}(p)\right)\\
+\end{align*}
+](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0Ar_s%5E%7Bsat%2Cref%7D%3D%5Cfrac%7B%5Crho_w%7D%7B%5Crho_C%7D%5Comega%5E%7Bsat%2Cref%7D%5C%5C%0Ar_s%5E%7Bsat%7D%28p%29%3Dr_s%5E%7Bsat%2Cref%7D+%5Cfrac%7Bp%7D%7Bp_%7Bref%7D%7D%5C%5C%0Ar_s%3D%5Cmin%5Cleft%28r_s%2Cr_s%5E%7Bsat%7D%28p%29%5Cright%29%5C%5C%0A%5Cend%7Balign%2A%7D%0A)
+
+* **Water in gas phase:** 
+
+Not accounted for
 
 #### Density
 
