@@ -104,26 +104,29 @@ _Obviously, the number and type of parameters for your model might differ from t
 
 ### Coupling of flow and transport, temporal and spatial discretization
 
-_E.g._ Fully coupled, fully implicit, cell-centered FV with TPFA.
+Fully coupled, fully implicit, cell-centered FV with TPFA. Default MRST set up for Black Oil
 
 ### Linearization and Solvers
 
-_E.g._ Newton with line search, AMG-preconditioned BiCGSTAB for the linear systems.
+Newton with line search, direct matlab solver
 
 ### Primary Variables
 
+p_w, 
 _E.g._ Dependent on local phase composition:
 * Both phases present:
   ![p_l, S_g](https://render.githubusercontent.com/render/math?math=%5Ctextstyle+p_l%2C+S_g%0A)...
 
 ### Computational Grid
 
-_Please provide the number and shape of grid elements._
+homogeneous rectangular grid 1cm x 1cm x 2cm, 150 x 280 x 1 = 42000
 
 ### Performance
 
+note that these are estimates from observing output rather than systematically calculating it
+
 | Indicator                            |  Average |      Min |      Max |
 |:-------------------------------------|---------:|---------:|---------:|
-| time step size [s]                   | 1.23e+56 | 1.23e+56 | 1.23e+56 |
-| # nonlinear iterations per time step |      123 |      123 |      123 |
-| # linear iterations per solve        |      123 |      123 |      123 |
+| time step size [s]                   |  100    | 1 | 600 |
+| # nonlinear iterations per time step |      10 |      3 |      25 |
+| # linear iterations per solve        |      N/A |      N/A |      N/A |
