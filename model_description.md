@@ -52,7 +52,8 @@ r_s=\min\left(r_s,r_s^{sat}(p)\right)\\
 \end{align*}
 ](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0Ar_s%5E%7Bsat%2Cref%7D%3D%5Cfrac%7B%5Crho_%7Bw0%7D%7D%7B%5Crho_%7Bc0%7D%7D%5Comega%5E%7Bsat%2Cref%7D%5C%5C%0Ar_s%5E%7Bsat%7D%28p%29%3Dr_s%5E%7Bsat%2Cref%7D+%5Cfrac%7Bp%7D%7Bp_%7Bref%7D%7D%5C%5C%0Ar_s%3D%5Cmin%5Cleft%28r_s%2Cr_s%5E%7Bsat%7D%28p%29%5Cright%29%5C%5C%0A%5Cend%7Balign%2A%7D%0A)
 
-![$\omega$]
+omega^sat,ref=0.002 kg/kg
+
 * **Water in gas phase:** 
 
 Not accounted for
