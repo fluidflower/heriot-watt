@@ -1,3 +1,3 @@
 # herriot-watt
 
-This folder contains the most confident case from HW. It also contains legacy files
+This folder contains the most confident case from HW for the 3rd virtual workshop
