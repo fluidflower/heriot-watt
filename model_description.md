@@ -82,6 +82,14 @@ p_ref=1e5 Pa
 rho_c0=1.815 kg/m^3
 c_c=1e-5 Pa^-1
 
+#### viscosity
+
+* **Liquid phase:** 
+mu_w=1e-3 Pa s
+
+* **Gas phase:** 
+mu_c=14.7e-6 Pa s
+
 
 #### Solubility limit
 
