@@ -13,14 +13,20 @@ Black oil equations with CO2 represented by gas phase/component and water repres
 #### Fluid-matrix interaction
 
 * **Capillary pressure:** 
-For fine sands:
+
+For fine sands (ESF, C, D):
 
 ![\begin{align*}
 p_c(S_{l}) = p_\text{entry}S_{l}^{-1/\lambda}
 \end{align*}
 ](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0Ap_c%28S_%7Bl%7D%29+%3D+p_%5Ctext%7Bentry%7DS_%7Bl%7D%5E%7B-1%2F%5Clambda%7D%0A%5Cend%7Balign%2A%7D%0A)
 
-For coarse sands:
+For coarse sands (E, F, G):
+
+![\begin{align*}
+p_c(S_{l}) = p_\text{entry}((0.999\times S_l)^{-\frac{10}{7}}-1)^{\frac{2}{3}}
+\end{align*}
+](https://render.githubusercontent.com/render/math?math=%5Ccolor%7Bblack%7D%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0Ap_c%28S_%7Bl%7D%29+%3D+p_%5Ctext%7Bentry%7D%28%280.999%5Ctimes+S_l%29%5E%7B-%5Cfrac%7B10%7D%7B7%7D%7D-1%29%5E%7B%5Cfrac%7B2%7D%7B3%7D%7D%0A%5Cend%7Balign%2A%7D%0A)
 
 
 * **Relative permeability:** 
